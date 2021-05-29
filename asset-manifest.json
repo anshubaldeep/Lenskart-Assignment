@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Lenskart-Assignment/static/css/main.dbcea953.chunk.css",
+    "main.js": "/Lenskart-Assignment/static/js/main.934b6d9b.chunk.js",
+    "main.js.map": "/Lenskart-Assignment/static/js/main.934b6d9b.chunk.js.map",
+    "runtime-main.js": "/Lenskart-Assignment/static/js/runtime-main.0cb8cfab.js",
+    "runtime-main.js.map": "/Lenskart-Assignment/static/js/runtime-main.0cb8cfab.js.map",
+    "static/js/2.b8d2622a.chunk.js": "/Lenskart-Assignment/static/js/2.b8d2622a.chunk.js",
+    "static/js/2.b8d2622a.chunk.js.map": "/Lenskart-Assignment/static/js/2.b8d2622a.chunk.js.map",
+    "static/js/3.3ba845f4.chunk.js": "/Lenskart-Assignment/static/js/3.3ba845f4.chunk.js",
+    "static/js/3.3ba845f4.chunk.js.map": "/Lenskart-Assignment/static/js/3.3ba845f4.chunk.js.map",
+    "index.html": "/Lenskart-Assignment/index.html",
+    "static/css/main.dbcea953.chunk.css.map": "/Lenskart-Assignment/static/css/main.dbcea953.chunk.css.map",
+    "static/js/2.b8d2622a.chunk.js.LICENSE.txt": "/Lenskart-Assignment/static/js/2.b8d2622a.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Lenskart-Assignment/static/media/poster-2.4b669dd3.png",
+    "static/media/envelope.svg": "/Lenskart-Assignment/static/media/envelope.e4006c17.svg",
+    "static/media/footer-image.928e5d87.png": "/Lenskart-Assignment/static/media/footer-image.928e5d87.png",
+    "static/media/lk-logo-f.54caf34b.webp": "/Lenskart-Assignment/static/media/lk-logo-f.54caf34b.webp",
+    "static/media/mirzapur-logo.e4aac842.png": "/Lenskart-Assignment/static/media/mirzapur-logo.e4aac842.png",
+    "static/media/phone-call.svg": "/Lenskart-Assignment/static/media/phone-call.f03953dd.svg",
+    "static/media/prime-logo.e711135f.png": "/Lenskart-Assignment/static/media/prime-logo.e711135f.png",
+    "static/media/profile-1.jpg": "/Lenskart-Assignment/static/media/profile-1.cf7692ad.jpg",
+    "static/media/profile-2.jpg": "/Lenskart-Assignment/static/media/profile-2.a7ef35f1.jpg",
+    "static/media/profile-3.jpg": "/Lenskart-Assignment/static/media/profile-3.9f3f497f.jpg",
+    "static/media/pspec-1.png": "/Lenskart-Assignment/static/media/pspec-1.b0394c56.png",
+    "static/media/pspec-2.png": "/Lenskart-Assignment/static/media/pspec-2.f868e33a.png",
+    "static/media/pspec-3.png": "/Lenskart-Assignment/static/media/pspec-3.2a12ed9b.png",
+    "static/media/spec-1.46bf9d09.png": "/Lenskart-Assignment/static/media/spec-1.46bf9d09.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cb8cfab.js",
+    "static/js/2.b8d2622a.chunk.js",
+    "static/css/main.dbcea953.chunk.css",
+    "static/js/main.934b6d9b.chunk.js"
+  ]
+}

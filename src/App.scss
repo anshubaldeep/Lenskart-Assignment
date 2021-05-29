@@ -1,0 +1,400 @@
+@import "~bootstrap/scss/bootstrap";
+$assetPath: "/assets/images";
+
+@mixin roundBtn {
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: Futura;
+  src: url("./assets/fonts/FuturaStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Futura;
+  font-weight: bold;
+  src: url("./assets/fonts/FuturaStd-Bold.otf") format("opentype");
+}
+
+body {
+  background-color: #000000;
+  font-family: Futura;
+}
+
+.Logo {
+  width: 15em;
+  height: 2.5em;
+  margin-left: 1em;
+}
+
+.Banner {
+  background-image: url(#{$assetPath}/mirzapur-poster.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  .Banner-Row {
+    padding-top: 80px;
+    padding-left: 40px;
+  }
+  .mirzapur-logo {
+    width: 90%;
+    height: 55%;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 1.5em;
+    text-align: right;
+    justify-content: flex-end;
+    padding: 0;
+  }
+  .stream-now {
+    justify-content: flex-end;
+    padding-left: 0;
+  }
+  .prime-logo-row {
+    padding-left: 0;
+  }
+  .Prime-Logo {
+    width: 90%;
+    height: 55%;
+    border-left: 3px solid white;
+    padding-left: 20px;
+  }
+  .Banner-2 {
+    border-left: 2px solid white;
+    h3 {
+      font-size: 18px;
+      text-align: center;
+      font-weight: bold;
+      padding-right: 20px;
+    }
+    .Banner-Spec {
+      padding-top: 10px;
+      width: 100%;
+      height: 90%;
+    }
+  }
+}
+
+.Banner-Text {
+  font-size: 1.6rem;
+  padding: 20px;
+  margin-top: 7%;
+  .btn {
+    width: 35%;
+    height: 2.65em;
+    background-color: #ff3500;
+    border-color: #ff3500;
+    @include roundBtn();
+    &:hover {
+      background-color: silver !important;
+      border: none;
+      color: black;
+    }
+  }
+}
+
+.Description {
+  background-color: #191919;
+  margin-top: 70px;
+  width: 90% !important;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 10%;
+  h1 {
+    color: #ff3500;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+  }
+  h3 {
+    color: white;
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  hr {
+    border-top: 4px solid white !important;
+    margin: auto;
+    width: 6%;
+    opacity: 1;
+  }
+  .Card-Row {
+    padding: 42px;
+  }
+  .card {
+    margin-top: 50px;
+    border: none;
+    padding: 5px;
+    font-size: 1.35em;
+    color: white;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    .card-img-top {
+      border-radius: 50%;
+      height: 300px;
+      width: 300px;
+      overflow: hidden;
+      border: 8px solid #ff3500;
+    }
+    .Spec-Image {
+      margin-bottom: 15%;
+      height: 70%;
+      width: 90%;
+    }
+    .card-text {
+      height: 8em;
+    }
+    .card-body {
+      padding: 30px;
+      font-weight: bold;
+    }
+    .pName {
+      color: #ff3500;
+    }
+    .Spec-Name {
+      font-weight: normal;
+      font-size: 0.85em;
+    }
+    .btn {
+      @include roundBtn();
+      height: 3em;
+      width: 55%;
+      font-size: 0.85em;
+      font-weight: 900;
+      color: black;
+      background-color: #ffffff;
+      border: none;
+      &:hover {
+        background-color: black !important;
+        border: none;
+        color: white;
+      }
+    }
+  }
+}
+
+.Info-Card {
+  width: 90% !important;
+  text-align: center;
+  color: white;
+  height: 400px;
+  margin-bottom: 5%;
+  background-image: url(#{$assetPath}/poster-2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 40px;
+  .btn {
+    background-color: #ffffff !important;
+    border: none;
+    color: black;
+    &:hover {
+      background-color: black !important;
+      border: none;
+      color: white;
+    }
+  }
+}
+
+.TnC {
+  width: 90% !important;
+  text-align: left;
+  color: white;
+  background-color: #4b4b4b;
+  padding: 90px;
+  font-size: 1.25em;
+  line-height: 1.65em;
+  padding-bottom: 4%;
+  margin-bottom: 10%;
+  h1 {
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  hr {
+    border-top: 3px solid white;
+    width: 5%;
+    opacity: 1;
+  }
+  ol {
+    margin-top: 2%;
+  }
+}
+
+.Footer {
+  width: 90% !important;
+  text-align: left;
+  color: white;
+  .footer-text {
+    margin-top: 7%;
+    font-size: 1.65em;
+  }
+  .footer-tag {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 25px;
+    &:hover{
+      color: black;
+      background-color: white;
+    }
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 4%;
+  }
+  hr {
+    border-top: 3px solid white;
+    width: 10%;
+    opacity: 1;
+  }
+  .tag-img {
+    width: 80%;
+    height: 80%;
+  }
+  .footer-image {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .Footer-Note{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:1300px){
+  .Banner-Text{
+    .btn{
+      font-size: 0.65em;
+      width: 70%;
+    }
+  }
+  .Footer{
+    .footer-tag{
+      padding: 10px;
+    }
+    font-size: 0.75em;
+    h3{
+      font-size: 1.25em;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .Logo{
+    width: 12em;
+    height: 2em;
+  }
+  .Banner{
+    padding: 5%;
+    background-color: #BD962F;
+    background-image: none;
+    height: 100%;
+    .mirzapur-logo{
+      height: 40%;
+    }
+    .Banner-Row{
+      padding: 5%;
+    }
+    h2{
+      text-align: center;
+    }
+    .Prime-Logo{
+      padding: 0;
+      border: none;
+      width: 80%;
+      height: 40%;
+      margin-bottom: 0%;
+    }
+    .Banner-2{
+      h3{
+        font-size: 0.85em;
+      }
+      border: none;
+      margin-top: 20%;
+    }
+    .Banner-Text{
+      padding: 0;
+      .btn{
+        width: 70% !important;
+        font-size: 0.75em !important;
+      }
+    }
+  }
+  .Description{
+    font-size: 0.85em;
+    line-height: 2em;
+    margin-top: 20%;
+    padding: 20px !important;
+    background-color: transparent;
+    h3{
+      line-height: 1.5em;
+    }
+    .card{
+      background-color: #242323;
+      padding: 10px;
+    }
+    .card-text{
+      height: 3.5em !important;
+    }
+    .card-img-top{
+      height: 200px !important;
+      width: 200px !important;
+      margin-bottom: 10%;
+    }
+    .Card-Row{
+      padding: 0px !important;
+      .card-body{
+        padding: 0px !important;
+        padding-bottom: 15px !important;
+      }
+      .Spec-Image{
+        margin-top: 35% !important;
+        margin-bottom: 15% !important;
+      }
+    }
+  }
+  .Info-Card{
+    background-color: #BD962F;
+    background-image: none;
+    padding: 8%;
+    .Banner-Text{
+      padding: 0;
+
+    .btn{
+      width: 80%;
+      font-size: 0.65em;
+    }
+    }
+  }
+  .TnC{
+    margin-top: 15%;
+    padding:5%
+  }
+  .Footer {
+    font-size: 0.75em;
+    .footer-tag{
+      padding: 10px;
+      margin-top: 5%;
+    }
+    .tag-img {
+      width: 70%;
+      height: 50%;
+    }
+    .footer-image{
+      width: 100%;
+      height: 15em;
+    }
+  }
+}
